@@ -87,7 +87,7 @@ public class Main2 {
 
 	public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException, ClassNotFoundException, NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, InstantiationException {
 		
-		Pinctgf7VO pinctgf7vo = new Pinctgf7VO();
+		/*Pinctgf7VO pinctgf7vo = new Pinctgf7VO();
 		
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
@@ -101,7 +101,7 @@ public class Main2 {
 		Main2 main = new Main2();
 		main.gerarParametros(params, 0, sb, pinctgf7vo);
 		
-		System.out.println(pinctgf7vo.getCodCatServ());
+		System.out.println(pinctgf7vo.getCodCatServ());*/
 		
 		
 		

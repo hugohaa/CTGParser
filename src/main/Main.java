@@ -203,7 +203,7 @@ public class Main {
 	public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException, ClassNotFoundException, NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, InstantiationException {
 		
 		
-		Pinctgf7VO pinctgf7vo = new Pinctgf7VO();
+		/*Pinctgf7VO pinctgf7vo = new Pinctgf7VO();
 		
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
@@ -221,7 +221,7 @@ public class Main {
 		NodeList params = nodeParams.getChildNodes();
 		Main.gerarParametros(params, 0, sb, pinctgf7vo);
 		
-		System.out.println(sb.toString());
+		System.out.println(sb.toString());*/
 		
 		
 		
