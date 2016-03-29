@@ -13,7 +13,8 @@ public class CTGParser {
 	public CTGParser(String className) throws InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException, ClassNotFoundException{
 		Object obj = ClassUtil.instanciaObjeto(className);
 		if(obj instanceof CTG){
-			this.doc = XMLUtil.abrirXml("");
+			CTG ctg = (CTG)obj;
+			this.doc = XMLUtil.abrirXml("C:/Users/808406/git/CTGParser/src/tests/" + ctg.getXMLName());
 			this.className = className;
 		}	
 		else

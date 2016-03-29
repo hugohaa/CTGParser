@@ -89,8 +89,10 @@ public class ClassToCTG {
 							sb.append(TextUtil.completarEsquerda(valorBD,Integer.parseInt(tamanho), "0"));
 						}
 						else{
-							String retorno = (String)ClassUtil.invocarMetodo(prop,vo);
-							sb.append(TextUtil.completarEsquerda(retorno, Integer.parseInt(tamanho), "0"));
+							Long retorno = (Long)ClassUtil.invocarMetodo(prop,vo);
+							if(retorno == null)
+								retorno = new Long(0);
+							sb.append(TextUtil.completarEsquerda(String.valueOf(retorno), Integer.parseInt(tamanho), "0"));
 						}
 					}
 					else{
