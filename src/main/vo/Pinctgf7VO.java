@@ -1,13 +1,14 @@
-package tests;
+package main.vo;
 
-import main.CTG;
+import main.base.BaseCTG;
+import main.interfaces.CTG;
 
 /**
  * Classe gerada através do plugin CTG2XML 
  * @since 26/03/2016 - 17:08:08 
  * @author BeanGenerator
  **/ 
-public class Pinctgf7VO implements java.io.Serializable, Cloneable, CTG {
+public class Pinctgf7VO extends BaseCTG implements java.io.Serializable, Cloneable, CTG {
 
     private final static long serialVersionUID = Pinctgf7VO.class.getName().hashCode();
     private java.lang.Long codCliSeg;
@@ -63,12 +64,17 @@ public class Pinctgf7VO implements java.io.Serializable, Cloneable, CTG {
     private java.lang.String descrErro;
 
     
-    public Pinctgf7VO(){
-    	
+    public Pinctgf7VO(String codTrans, Long codUsuar, String nomeOper, String chaveSec, Long opcao, Long tipo,
+			Long tamAreaCtg, String portaMainframe, String tcpCliente, Long tamAreaPgm, Long codRetorno,
+			String mensRetorno) {
+		super(codTrans, codUsuar, nomeOper, chaveSec, opcao, tipo, tamAreaCtg, portaMainframe, tcpCliente, tamAreaPgm,
+				codRetorno, mensRetorno);
+
     }
     
-    
-    public java.lang.Long getCodCliSeg(){
+    public Pinctgf7VO(){};
+
+	public java.lang.Long getCodCliSeg(){
         return codCliSeg;
     }
 

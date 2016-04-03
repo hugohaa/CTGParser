@@ -1,4 +1,4 @@
-package tests;
+package main.vo;
 
 /**
  * Classe gerada através do plugin CTG2XML 

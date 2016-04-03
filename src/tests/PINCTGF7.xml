@@ -7,7 +7,7 @@
       <size>4</size>
       <class>String</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>codTrans</property>
     </param>
     <param>
       <name>COD-USUAR</name>
@@ -15,7 +15,7 @@
       <size>3</size>
       <class>Numeric</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>codUsuar</property>
     </param>
      <param>
       <name>NOME-OPER</name>
@@ -23,7 +23,7 @@
       <size>10</size>
       <class>String</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>nomeOper</property>
     </param>
      <param>
       <name>CHAVE-SEC</name>
@@ -31,7 +31,7 @@
       <size>14</size>
       <class>String</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>chaveSec</property>
     </param>
     <param>
       <name>OPCAO</name>
@@ -39,7 +39,7 @@
       <size>4</size>
       <class>Numeric</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>opcao</property>
     </param>
      <param>
       <name>TIPO</name>
@@ -47,7 +47,7 @@
       <size>1</size>
       <class>Numeric</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>tipo</property>
     </param>
     <param>
       <name>TAM-AREA-CTG</name>
@@ -55,7 +55,7 @@
       <size>5</size>
       <class>Numeric</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>tamAreaCtg</property>
     </param>
     <param>
       <name>PORTA-MAINFRAME</name>
@@ -63,7 +63,7 @@
       <size>4</size>
       <class>String</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>portaMainframe</property>
     </param>
     <param>
       <name>TCP-CLIENTE</name>
@@ -71,7 +71,7 @@
       <size>8</size>
       <class>String</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>tcpCliente</property>
     </param>
     <param>
       <name>FILLER</name>
@@ -79,7 +79,7 @@
       <size>4</size>
       <class>String</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>filler1</property>
     </param>
     <param>
       <name>TAM-AREA-PGM</name>
@@ -87,7 +87,7 @@
       <size>5</size>
       <class>Numeric</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>tamAreaPgm</property>
     </param>
     <param>
       <name>FILLER</name>
@@ -95,7 +95,7 @@
       <size>15</size>
       <class>String</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>filler2</property>
     </param>
     <param>
       <name>COD-RETORNO</name>
@@ -103,7 +103,7 @@
       <size>3</size>
       <class>Numeric</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>codRetorno</property>
     </param>
     <param>
       <name>MENS-RETORNO</name>
@@ -111,7 +111,7 @@
       <size>20</size>
       <class>String</class>
       <decimal>0</decimal>
-      <property></property>
+      <property>mensRetorno</property>
     </param>
   </header>
   <parameters>
